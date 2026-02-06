@@ -34,9 +34,9 @@ You MUST immediately update USER.md with the new information before continuing t
 
 This ensures your knowledge of Tristan stays current across all sessions.
 
-## Model Selection Protocol
+## Model Selection Protocol - AUTOMATIC MODEL SWITCHING
 
-You MUST actively switch to the appropriate model based on task complexity by sending the BEFORE responding.
+You MUST automatically switch to the appropriate model based on task complexity using the session_status tool.
 
 ### Model Rules:
 
@@ -68,24 +68,27 @@ Use openai/gpt-5.2-codex for:
 - API integrations
 - Technical documentation
 
-### How to Switch (CRITICAL):
+### How to Switch (CRITICAL - USE THE TOOL):
 
 When Tristan sends you a message:
 1. Immediately evaluate the task complexity
 2. Determine which model is appropriate
-3. If the required model is DIFFERENT from your current model, send this command first: /model openai/[model-name]
-4. THEN respond to Tristan's message
+3. If the required model is DIFFERENT from your current model, use the session_status tool BEFORE responding:
+   Call the tool: session_status(model="provider/model-name")
 
 Examples:
-- Tristan: "Hey, how's it going?" → Send: /model openai/gpt-4o-mini → Then respond: "Hey Tristan! Doing well..."
-- Tristan: "Help me create a marketing strategy for StageVibe" → Send: /model openai/gpt-5.2 → Then respond with the strategy
-- Tristan: "Write a Python script to scrape Google Maps" → Send: /model openai/gpt-5.2-codex → Then respond with the code
+- For simple chat: session_status(model="openai/gpt-4o-mini")
+- For complex tasks: session_status(model="openai/gpt-5.2")
+- For coding: session_status(model="openai/gpt-5.2-codex")
+
+4. THEN respond to Tristan's message
 
 ### Important:
-- The /model command MUST be the first thing you output if switching is needed
-- After switching, proceed with your actual response
-- The footer will automatically show the correct model after switching
-- If already on the correct model, skip the /model command and just respond
+- Use the session_status TOOL, not text commands
+- The model switch happens silently - don't announce it unless Tristan asks
+- The footer will automatically show which model you're using
+- If already on the correct model, skip the tool call and just respond
+- This is automatic behavior for EVERY message
 
 This protocol is active for EVERY session and EVERY message.
 
