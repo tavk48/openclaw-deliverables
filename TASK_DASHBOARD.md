@@ -1,8 +1,8 @@
 # TASK DASHBOARD — Live Status
 
-**Last Updated:** Auto-updated via GitHub push
-**View on Phone:** https://github.com/tavk48/openclaw-deliverables/blob/main/TASK_DASHBOARD.md
-**Auto-refresh:** GitHub app pull-to-refresh
+**Last Updated:** Auto-updated via GitHub push  
+**View on Phone:** https://github.com/tavk48/openclaw-deliverables/blob/main/TASK_DASHBOARD.md  
+**Auto-refresh:** GitHub app pull-to-refresh  
 
 ---
 
@@ -102,76 +102,6 @@
 | stagevibe-outreach-templates.md | StageVibe | Email, DM, text templates | 2026-02-08 |
 | ideas-2026-02-08.md | Ideas | 2 viral product concepts | 2026-02-08 |
 
-### Archive (Previously Delivered)
-See /deliverables/archive/ for historical files
-
----
-
-## BACKGROUND QUEUE (What I'll Do Next)
-
-**When You Sleep:**
-- Research venue contact details (phones, emails, manager names)
-- Research 50 web dev prospects (Bradenton/Sarasota)
-- Compile beta tester list for Ghostline
-
-**When You Work:**
-- Accumulate ideas for ideas file
-- Monitor industry news
-- Draft additional templates as needed
-
-**When You're With Others:**
-- Prepare evening digest
-- Review day's work
-- Queue tomorrow's priorities
-
----
-
-## PRIORITY MATRIX
-
-### P0 — Critical (Do Today)
-- [ ] AgencySpotter morning block
-- [ ] Inspiration Academy revisions (if client feedback received)
-
-### P1 — High (This Week)
-- [ ] Compile venue contact info for StageVibe
-- [ ] Build Google Sheet of 50 web dev prospects
-- [ ] Generate Ghostline master prompt for Bolt.diy
-
-### P2 — Medium (Next 2 Weeks)
-- [ ] Test paid demo model ($10)
-- [ ] Create StageVibe one-pager PDF
-- [ ] Personal outreach to 5 musicians
-
-### P3 — Low (Backlog)
-- [ ] QR placement strategy research
-- [ ] Musician testimonials page concept
-- [ ] Weekend Strategy deep work planning
-
----
-
-## DAILY RHYTHM
-
-**6:00 AM — Morning Brief**
-- Weather, news, Bible study, task list
-
-**12:00 PM — Midday Pulse**
-- Completed deliverables, insights
-
-**9:00 PM — Evening Wind-down**
-- Day's summary, tomorrow's priorities
-
-**Saturday 10:00 AM — Weekend Strategy**
-- Week review, strategic planning
-
----
-
-## DECISIONS NEEDED
-
-| Decision | Context | Options | Your Call |
-|----------|---------|---------|-----------|
-| Ghostline beta testers | Need outreach list compiled | I compile 20 freelancers for you to approve | PENDING |
-| WebDev paid demo test | Test $10 vs free | A) Test $10 immediately B) Stick with free C) Both | PENDING |
-
 ---
 
 ## HOW TO USE THIS DASHBOARD
@@ -189,20 +119,6 @@ See /deliverables/archive/ for historical files
 
 ### Auto-Updates:
 - I push updates throughout the day
-- Completed tasks move to "Completed" section
-- New tasks appear in "Next Up"
+- Completed tasks move to Completed section
+- New tasks appear in Next Up
 - This file always reflects current state
-
----
-
-## GPT TRACKING
-
-**Today's Usage:** [Auto-updated via session_status]
-**Cost Today:** [Calculated from token usage]
-**Model:** nvidia-nim/moonshotai/kimi-k2.5 (FIXED)
-
----
-
-**File Location:** /workspace/TASK_DASHBOARD.md  
-**GitHub:** https://github.com/tavk48/openclaw-deliverables  
-**Auto-push:** Enabled (commits within 60 seconds of updates)
